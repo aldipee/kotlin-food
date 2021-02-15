@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:strokeColor="@color/lightGray"
-        app:strokeWidth="1dp">
+        app:strokeWidth="3dp">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -75,7 +75,6 @@
                 android:id="@+id/iconHeart"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:tOf="@+id/textView5"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/itemTotalLike"
                 app:layout_constraintStart_toStartOf="@+id/itemTotalLike"
